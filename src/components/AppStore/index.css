@@ -1,0 +1,56 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.appStore-heading {
+  font-family: 'Bree Serif';
+}
+
+.input-el-container {
+  width: 300px;
+  height: 27px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-element {
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 4px;
+}
+
+.tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.app-items-container {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
